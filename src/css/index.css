@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  color: rgb(234, 234, 234);
+}
+
+.Home {
+    min-height: 85vh;
+  margin: 0;
+  background-image: url(https://anandawira.github.io/shopping-cart/static/media/9GAG_Flat_lay_1296x.67dbc12d.webp);
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-blend-mode: luminosity;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
