@@ -1,0 +1,12 @@
+.Go{
+  box-shadow: 10px 10px 10px grey;
+}
+
+.effect:after {
+  display:block;
+  content: '';
+  border-bottom: solid 2px #FFF;  
+  transform: scaleX(0);  
+  transition: transform 250ms ease-in-out;
+}
+.effect:hover:after { transform: scaleX(1); }
